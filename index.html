@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles/css/normalize.css" />
+    <link rel="stylesheet" href="src/styles/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Dancing+Script:wght@400;700&family=Neucha&display=swap"
+      rel="stylesheet"
+    />
+    <title>Chaban Wedding</title>
+  </head>
+  <body>
+    <!--=========================-----------------CORE------------------==============================================-->
+    <div class="background">
+      <img src="src/image/bg.png" alt="фон" class="backgroung-img" />
+      <img src="src/image/bgmob.png" alt="фон" class="background-img-mob" />
+    </div>
+    <!--nav-->
+    <div class="nav">
+      <nav class="nav__wrapp">
+        <div class="nav__element">
+          <span class="nav__span" id="invite"> Приглашение</span>
+        </div>
+        <div class="nav__element">
+          <span class="nav__span" id="timing"> Тайминг</span>
+        </div>
+        <div class="nav__element">
+          <span class="nav__span" id="place"> Место проведения</span>
+        </div>
+        <div class="nav__element">
+          <span class="nav__span" id="guest"> Рассадка</span>
+        </div>
+
+        <div class="nav__element">
+          <span class="nav__span" id="info"> Подсказки</span>
+        </div>
+        <div class="nav__element">
+          <span class="nav__span" id="danger">Важно</span>
+        </div>
+      </nav>
+    </div>
+    <!--=====================---------M-MENU------------===================-->
+    <div class="m-logo">
+      <img src="src/image/menu.png" alt="мобильное меню" class="m-logo__img" />
+    </div>
+    <div class="m-menu__wrap">
+      <div class="m-menu">
+        <div class="m-menu__element m-menu__element-img-wrap">
+          <img
+            src="src/image/closed.png"
+            alt="закрыть"
+            class="m-menu__element-img"
+          />
+        </div>
+        <div class="m-menu__element" id="inviteId">Приглашение</div>
+        <div class="m-menu__element" id="timingId">Тайминг</div>
+        <div class="m-menu__element" id="placeId">Место проведения</div>
+        <div class="m-menu__element" id="guestId">Рассадка</div>
+
+        <div class="m-menu__element" id="infoId">Подсказки</div>
+        <div class="m-menu__element" id="dangerId">Важно</div>
+      </div>
+    </div>
+
+    <!--==========================----------------------HEADER----------------=========================================-->
+
+    <header class="header">
+      <div class="container">
+        <div class="header__wrap">
+          <div class="header__title">
+            <div class="header__egor">Egor</div>
+            <div class="header__and">&</div>
+            <div class="header__Kristyna">Kristyna</div>
+          </div>
+          <div class="header__subtitle">21.08.2020</div>
+        </div>
+      </div>
+    </header>
+
+    <!--===================--------------------------INVITE------------------------====================================-->
+    <div class="invite">
+      <div class="container invite__container">
+        <div class="invite__wrap">
+          <div class="invite__corner-top">
+            <img
+              src="src/image/coorner.png"
+              alt="угол1"
+              class="invite__corner-top-img"
+            />
+          </div>
+          <div class="invite__text">
+            <div class="invite__text-title">
+              Если вы попали на этот сайт — значит вы приглашены на нашу
+              свадьбу!
+            </div>
+
+            <div class="invite__text-text">
+              В этот день мы хотим веселиться до упаду, танцевать, пить
+              шампанское и делить нашу радость с вами — самыми родными и
+              близкими людьми!
+            </div>
+          </div>
+          <div class="invite__corner-bot">
+            <img
+              src="src/image/corner-bottom.png"
+              alt="угол1"
+              class="invite__corner-bot-img"
+            />
+          </div>
+        </div>
+        <!--/invite__wrap-->
+      </div>
+      <!--/container-->
+    </div>
+    <!--=============================-------------TIMING-------===============================================-->
+    <section class="timing">
+      <div class="timing__wrapp">
+        <div class="timing__title">Тайминг</div>
+
+        <div class="timing__main">
+          <img
+            src="src/image/timingNew.png"
+            alt="программа"
+            class="timing__main-img"
+          />
+          <img
+            src="src/image/timingMob.png"
+            alt="программа"
+            class="timing__main-imgMob"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="timing">
+      <div class="timing__wrapp">
+        <div class="timing__title">День 2</div>
+
+        <div class="timing__main">
+          <img
+            src="src/image/day2.png"
+            alt="программа"
+            class="timing__main-img"
+          />
+          <img
+            src="src/image/day2mob.png"
+            alt="программа"
+            class="timing__main-imgMob"
+          />
+        </div>
+      </div>
+    </section>
+    <!--=========================-------------------PLACE-----------------=================================-->
+    <section class="place">
+      <div class="container">
+        <div class="place__wrapp">
+          <div class="place__address">
+            <div class="place__address-title">Где состоится</div>
+            <div class="place__address-address">
+              Узденский р-н, д. Подьельники, <br />
+              ул. Лесная д.3
+            </div>
+            <div class="place__address-home">Усадьба "Лесной кордон"</div>
+          </div>
+          <!-- /.place__address -->
+          <div class="place__google-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.1629120868633!2d27.10239401532213!3d53.358239281522145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d90bf3af9ac1af%3A0xaa43cb34d384b4fa!2z0KPRgdCw0LTRjNCx0LAg0JvQtdGB0L3QvtC5INC60L7RgNC00L7QvQ!5e0!3m2!1sru!2sby!4v1595702357841!5m2!1sru!2sby"
+              width="80%"
+              height="100%"
+              frameborder="0"
+              style="border: 0;"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+          </div>
+          <!-- /.place__google-map -->
+
+          <!-- /.place__transfer -->
+        </div>
+      </div>
+    </section>
+    <!--=============================----------------GUEST-----------------====================================-->
+    <section class="guest">
+      <div class="container">
+        <div class="guest__wrapp">
+          <div class="guest__title">План рассадки гостей:</div>
+          <div class="guest__table">
+            <div class="guest__table-elements">
+              <img
+                src="src/image/Pick.png"
+                alt="кнопка"
+                class="guest__table-img"
+              />
+              <div class="guest__table-nav">
+                <div class="guest__table-nav-title">Стол №1</div>
+                <div class="guest__table-nav-elem">
+                  Мама невесты <br />
+                  Папа невесты <br />
+                  Мама жениха <br />
+                  Папа жениха <br />
+                  Наталья Сацура <br />
+                  Сергей Сацура <br />
+                  Александр Мацкевич <br />
+                  Светлана Мацкевич <br />
+                  Валентина Шибко <br />
+                  Николай Шибко <br />
+                </div>
+              </div>
+            </div>
+            <!--/table-->
+            <div class="guest__table-elements">
+              <img
+                src="src/image/Pick.png"
+                alt="кнопка"
+                class="guest__table-img"
+              />
+              <div class="guest__table-nav">
+                <div class="guest__table-nav-title">Стол №2</div>
+
+                <div class="guest__table-nav-elem">
+                  Илья Чабан
+                  <br />
+                  Елена Чабан
+                  <br />
+                  Влада Чабан
+                  <br />
+                  Никита Шепелевич
+                  <br />
+                  Вероника Самусик
+                  <br />
+
+                  Егор Липай
+                  <br />
+                  Татьяна Сологуб
+                </div>
+              </div>
+            </div>
+            <!--/table-->
+            <div class="guest__table-elements">
+              <img
+                src="src/image/Pick.png"
+                alt="кнопка"
+                class="guest__table-img"
+              />
+              <div class="guest__table-nav">
+                <div class="guest__table-nav-title">Стол №3</div>
+                <div class="guest__table-nav-elem">
+                  Дарья Голубович
+                  <br />
+                  Сергей Голубович
+                  <br />
+                  Екатерина Гладкая
+                  <br />
+                  Андрей Пармон
+                  <br />
+                  Павел Михед
+                  <br />
+                  Полина Лыч
+                  <br />
+                  Стася Халанская
+                  <br />
+                  Кирилл Михасюк
+                </div>
+              </div>
+            </div>
+            <!--/table-->
+
+            <div class="guest__table-elements">
+              <img
+                src="src/image/Pick.png"
+                alt="кнопка"
+                class="guest__table-img"
+              />
+              <div class="guest__table-nav">
+                <div class="guest__table-nav-title">Стол №4</div>
+
+                <div class="guest__table-nav-elem">
+                  Анна Бондарь
+                  <br />
+                  Игорь Хрыкин
+                  <br />
+                  Евгений Шибко
+                  <br />
+                  Евгения Шибко
+                  <br />
+
+                  Оксана Казак
+                  <br />
+                  Наталья Семенова
+                  <br />
+                  Роман Семенов
+                </div>
+              </div>
+            </div>
+            <!--/table-->
+
+            <div class="guest__table-elements">
+              <img
+                src="src/image/Pick.png"
+                alt="кнопка"
+                class="guest__table-img"
+              />
+              <div class="guest__table-nav">
+                <div class="guest__table-nav-title">Стол №5</div>
+
+                <div class="guest__table-nav-elem">
+                  Паша Бондарь
+                  <br />
+                  Анна Бондарь
+                  <br />
+                  Сергей Бондарь
+                  <br />
+                  Агния Бурнович
+                  <br />
+                  Паша Трухан
+                  <br />
+                  Ольга Трухан
+                  <br />
+                  Вася Трухан
+                  <br />
+                  Наташа Трухан
+                </div>
+              </div>
+            </div>
+            <!--/table-->
+
+            <div class="guest__table-elements">
+              <img
+                src="src/image/Pick.png"
+                alt="кнопка"
+                class="guest__table-img"
+              />
+              <div class="guest__table-nav">
+                <div class="guest__table-nav-title">Стол №6</div>
+
+                <div class="guest__table-nav-elem">
+                  Андрей Трухан
+                  <br />
+                  Екатерина Трухан
+                  <br />
+                  Анна Трухан
+                  <br />
+                  Елена Линник
+                  <br />
+                  Тимур Линник
+                  <br />
+                  Сергей Шавель
+                  <br />
+                  Татьяна Шавель
+                </div>
+              </div>
+            </div>
+            <!--/table-->
+
+            <div class="guest__table-elements">
+              <img
+                src="src/image/Pick.png"
+                alt="кнопка"
+                class="guest__table-img"
+              />
+              <div class="guest__table-nav">
+                <div class="guest__table-nav-title">Стол №7</div>
+
+                <div class="guest__table-nav-elem">
+                  Олег Латыш
+                  <br />
+                  Жанна Латыш
+                  <br />
+                  Александр Лукашевич
+                  <br />
+                  Елена Лукашевич
+                  <br />
+                  Василий Лесик
+                  <br />
+                  Анатолий Кучук
+                  <br />
+                  Лариса Кучук
+                </div>
+              </div>
+            </div>
+            <!--/table-->
+            <div class="guest__table-elements">
+              <img
+                src="src/image/Pick.png"
+                alt="кнопка"
+                class="guest__table-img"
+              />
+              <div class="guest__table-nav">
+                <div class="guest__table-nav-title">Стол №8</div>
+
+                <div class="guest__table-nav-elem">
+                  Илья Семенов
+                  <br />
+                  Наталья Даутова
+                  <br />
+                  Сергей Казак
+                  <br />
+                  Роман Толстый
+                  <br />
+                  Светлана Бересневич
+                  <br />
+
+                  Ирина Былина
+                  <br />
+                  Денис Былина
+                </div>
+              </div>
+            </div>
+            <!--/table-->
+            <div class="guest__table-elements">
+              <img
+                src="src/image/Pick.png"
+                alt="кнопка"
+                class="guest__table-img"
+              />
+              <div class="guest__table-nav">
+                <div class="guest__table-nav-title">Стол №9</div>
+
+                <div class="guest__table-nav-elem">
+                  Алексей Трухан
+                  <br />
+                  Алена Оржеховская
+                  <br />
+                  Татьяна Миськова
+                  <br />
+                  Александр Миськов
+                  <br />
+                  Владимир Рубаник
+                  <br />
+                  Галина Рубаник
+                </div>
+              </div>
+            </div>
+            <!--/table-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=======================-----------------------INFO---------============================-->
+    <section class="info">
+      <div class="container">
+        <div class="info__wrap">
+          <div class="info__title">Подсказки</div>
+          <div class="info__element">
+            <div class="info__element-title">Трансфер</div>
+            <div class="info__element-text">
+              Для вашего удобства будет организован трансфер. Сбор гостей
+              начнется в 15:30. Обратный трансфер: 01.00.
+            </div>
+          </div>
+          <div class="info__element">
+            <div class="info__element-title">Видео</div>
+            <div class="info__element-text">
+              Мы будем рады, если вы запишете на видео самые важные моменты
+              нашего праздника, а после — отправите их нам :)
+            </div>
+          </div>
+
+          <div class="info__element">
+            <div class="info__element-title">Дресс-код</div>
+            <div class="info__element-text">
+              Наша свадьба будет на природе, и все пройдет уютно и расслабленно.
+              Можно не выряжаться в черные смокинги и вечерние платья. Главное —
+              чтобы вам было комфортно и удобно. <br /><strong
+                >Для женщин</strong
+              >
+              это могут быть платья, юбки, сарафаны. Обувь, желательно, на
+              толстом каблуке или вовсе в кедах, чтобы было удобно ходить по
+              траве. <br /><strong>Для мужчин</strong> это могут быть костюмы,
+              брюки, поло, рубашки. <br />Также не забудьте захватить с собой
+              теплую одежду на вечер. Мы не хотим, чтобы вы замерзли. <br />Мы
+              очень старались сделать этот день красивым и будем рады, если вы
+              поддержите цветовую гамму нашей свадьбы в своих нарядах или
+              аксессуарах. <br />Оттенки: бледно-розовый, бежевый, коричневый,
+              серый и пыльный зеленый.
+              <div class="info__element-color">
+                <img
+                  src="src/image/color.png"
+                  alt="цвета"
+                  class="info__element-color-img"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="info__element">
+            <div class="info__element-title">Подарки</div>
+            <div class="info__element-text">
+              Можете воздержаться от покупки цветов для поздравлений, так как мы
+              вскоре уедем в свадебное путешествие и не успеем насладиться их
+              красотой. Будет жаль, если букеты завянут. Альтернативой могут
+              стать книги, настольные игры, билеты, сертификаты, творческие
+              поздравления или бутылочка любимого алкогольного/слабоалкогольного
+              напитка с пожеланием на какой повод нам стоит ее открыть вместе с
+              вами) Мы будем рады любому подарку)
+            </div>
+          </div>
+
+          <div class="info__element">
+            <div class="info__element-title">Ночевка</div>
+            <div class="info__element-text">
+              В усадьбе можно остаться на ночь. Цена на одного человека - 20$.
+            </div>
+          </div>
+          <div class="info__element">
+            <div class="info__element-title"></div>
+            <div class="info__element-text">
+              <span class="info__element-title">P.S.</span> Будем благодарны,
+              если вы воздержитесь от криков "Горько!“: для нас поцелуй — знак
+              выражения чувств, он не может быть по заказу.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="invite__corner-bot">
+        <img
+          src="src/image/corner-bottom.png"
+          alt="угол1"
+          class="invite__corner-bot-img"
+        />
+      </div>
+    </section>
+    <!--===================================----------IMPOTANT---------========================-->
+    <section class="impo">
+      <div class="invite__corner-top">
+        <img
+          src="src/image/coorner.png"
+          alt="угол1"
+          class="invite__corner-top-img"
+        />
+      </div>
+      <div class="impo__wrap">
+        <div class="impo__title">Важно</div>
+        <div class="impo__main">
+          <div class="impo__main-text">
+            Пожалуйста, подтвердите свое присутствие по телефону или в
+            социальных сетях до 15 августа 2020 года!
+          </div>
+          <div class="impo__main-contact">
+            <div class="impo__main-element">
+              <div class="impo__main-element-title">Егор</div>
+              <div class="impo__main-element-tel">+375 29 558 91 12</div>
+              <div class="impo__main-element-social">
+                <a href="https://vk.com/egorchaban" target="_blank"
+                  ><img
+                    src="src/image/vk.png"
+                    alt="вконтакте"
+                    class="impo__img-vk"
+                /></a>
+                <a
+                  href="https://instagram.com/egorchaban?igshid=1jrbnpth4e01z"
+                  target="_blank"
+                  ><img
+                    src="src/image/insta.png"
+                    alt="инстраграм"
+                    class="impo__img-insta"
+                /></a>
+              </div>
+            </div>
+            <div class="impo__main-element">
+              <div class="impo__main-element-title">Кристина</div>
+              <div class="impo__main-element-tel">+375 29 841 30 72</div>
+              <div class="impo__main-element-social">
+                <a href="https://vk.com/id108233235" target="_blank"
+                  ><img
+                    src="src/image/vk.png"
+                    alt="вконтакте"
+                    class="impo__img-vk"
+                /></a>
+                <a
+                  href="https://instagram.com/kristen_trukhan?igshid=puqoi4ji803x"
+                  target="_blank"
+                  ><img
+                    src="src/image/insta.png"
+                    alt="инстраграм"
+                    class="impo__img-insta"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="invite__corner-bot">
+        <img
+          src="src/image/corner-bottom.png"
+          alt="угол1"
+          class="invite__corner-bot-img"
+        />
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__main">
+        <div class="footer__text">Разработал Егор Чабан</div>
+        <div class="footer__date">2020г.</div>
+      </div>
+    </footer>
+
+    <script src="src/scripts/jquery-3.5.1.min.js"></script>
+    <script src="src/scripts/script.js"></script>
+  </body>
+</html>
